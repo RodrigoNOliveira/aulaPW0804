@@ -1,0 +1,34 @@
+/* container */
+
+#container{
+    background-color: coral;
+    width: 50vw;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 25vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.item{
+    background-color: bisque;
+    margin: 0.25em;
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

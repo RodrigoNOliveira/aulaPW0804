@@ -1,0 +1,40 @@
+/* itens */
+
+#container {
+    background-color: coral;
+    width: 75%;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 25vh;
+
+    display: flex;
+    flex-direction: row;
+
+
+    /* flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-items: stretch; */
+}
+
+.item {
+    background-color: bisque;
+    margin: 0.25em;
+
+
+}
+
+.um{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 400px;
+}
+
+.dois{
+    flex-grow: 1;
+}
+
+.tres{
+    flex-grow: 1;
+    
+}

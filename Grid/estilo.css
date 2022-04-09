@@ -1,0 +1,51 @@
+/* estilos .css*/
+
+#galeria{
+    background-color: red;
+    border: 2px solid blue;
+}
+
+
+#grande {
+    margin: 1em;
+    text-align: center;
+}
+
+#miniaturas{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+}
+
+.miniatura{
+    text-align: center;
+    background-color: blueviolet;
+    border: 2px solid pink;
+    padding: 1em;
+    transition: all 0.5s linear ;
+}
+
+.miniatura:hover{
+    background-color: rgb(199, 155, 241);
+    border-radius: 10%;
+}
+
+.miniatura img{
+    width: 100%;
+    display: block;
+    border-radius: 10%;
+    filter: hue-rotate(0deg);
+    transition: all 0.5s linear;
+    
+}
+
+.miniatura:hover img{ /*hover é quando se coloca o mouse em cima*/
+    border-radius: 0%;
+    filter: hue-rotate(180deg);
+    
+}
+
+
+
+
